@@ -57,6 +57,7 @@ main {
   overflow: hidden;
   width: clamp(200px, 100%, 350px);
   position: relative;
+  box-shadow: 4px 26px 52px rgba(0, 0, 0, 0.14);
 }
 
 .img-container {
@@ -79,6 +80,7 @@ main {
 }
 
 .age {
+  margin-left: 0.3em;
   color: var(--gray-txt);
   font-weight: 400;
 }
@@ -107,6 +109,6 @@ main {
 
 .stats-name {
   font-weight: 1.1rem;
-  color: (--gray-txt);
+  color: var(--gray-txt);
   letter-spacing: 0.1em;
 }
